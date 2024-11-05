@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'QuickSand';
+  src: url('./fonts/Quicksand-VariableFont_wght.ttf');
+}
+* {
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: 'QuickSand', Inter;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+.splide__pagination__page {
+  background: rgb(59, 130, 246) !important;
+}
+.splide__pagination__page.is-active {
+  background: rgb(0, 82, 214) !important;
+}
+  .button-fixed:hover .tel {
+  right: 70px;
+  transition: all 0.2s linear;
+}
+  .button-fixed:hover .whats {
+  bottom: 70px;
+  transition: all 0.2s linear;
+}
+.show {
+  max-height: 300px;
+  transition: all 0.3s linear;
+  transform-origin: top;
+}
+
+.class-next {
+  right: -14px !important;
+}
+.class-prev {
+  left: -14px !important;
+}
+@media (min-width: 768px) {
+  .button-fixed:hover .tel {
+    right: 85px;
+    transition: all 0.2s linear;
+  }
+  .button-fixed:hover .whats {
+    bottom: 85px;
+    transition: all 0.2s linear;
+  }
+}
