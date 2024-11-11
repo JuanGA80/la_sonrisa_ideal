@@ -5,13 +5,25 @@ import promo2 from '../assets/promos/caries.webp'
 import promo3 from '../assets/promos/caries-child.webp'
 import promo4 from '../assets/promos/brackets-child.webp'
 import promo5 from '../assets/promos/promo-buen-fin-1.jpg'
+import promo6 from '../assets/promos/promo-buen-fin-2.jpg'
+import promo7 from '../assets/promos/promo-buen-fin-3.jpg'
+
 import { TitleSection } from './TitleSection'
 
 // eslint-disable-next-line react/prop-types
 export const Promotions = ({ divRef }) => {
   const infoPromotions = [
+    
     {
       imgSrc: promo5,
+      alt: 'Promoción Buen Fin',
+    },
+    {
+      imgSrc: promo6,
+      alt: 'Promoción Buen Fin',
+    },
+    {
+      imgSrc: promo7,
       alt: 'Promoción Buen Fin',
     },
     {
@@ -33,7 +45,7 @@ export const Promotions = ({ divRef }) => {
     {
       imgSrc: promo4,
       alt: 'Promoción inicio de tratamiento de brackets para niños'
-    }
+    }, 
   ]
 
   return (
